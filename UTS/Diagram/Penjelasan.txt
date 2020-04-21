@@ -1,0 +1,22 @@
+Penjelasan dari diagram tersebut adalah :
+
+##DIAGRAM USE CASE
+Aktor dapat menambah data, melihat data, menghapus data, dan melihat data.
+
+##DIAGRAM ACTIVITY
+Pada diagram tersebut berisi tentang sistem yang memperoses hasil cetakan attribut.
+
+##DIAGRAM CLASS
+Pada diagram ada 3 class, yaitu ada class Data, Class Mahasiswa, dan Class Operasi.. 
+ketiga class tersebut memiliki attribut yaitu :
+Data :  +nama tipe data String;
+	+nim tipe data String;
+	+kelas tipe data String;
+	+dospem tipe data String;
+	method +getData()
+
+Mahasiswa : +mahasiswa memiliki method tambah(), edit(), cetak(), hapus().
+Operasi   : ListData<> memiliki method tambah(), edit(), hapus(), ListData()
+
+##DIAGRAM SEQUENCE
+aktor dapat menambah, menghapus, mengubah, dan melihat dengan sistem untuk menampilkan data.
